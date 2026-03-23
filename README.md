@@ -1,0 +1,1 @@
+A high-speed Intrusion Detection System (IDS) powered by a hardware-accelerated perceptron on a Nexys A7 FPGA. The project features a custom VHDL arithmetic pipeline for calculations and a Python-based machine learning stack (NumPy, Scapy) to train weights and monitor real-time network threats via UART/USB.
