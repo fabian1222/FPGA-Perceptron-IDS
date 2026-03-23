@@ -1,0 +1,4 @@
+Time resolution is 1 ps
+Failure: Simulare terminata cu succes
+Time: 340 ns  Iteration: 0  Process: /perceptron_tb/stim_proc  File: C:/faculta/SSC/project_444/project_444.srcs/sim_1/new/perceptron_tb.vhd
+$finish called at time : 340 ns : File "C:/faculta/SSC/project_444/project_444.srcs/sim_1/new/perceptron_tb.vhd" Line 88

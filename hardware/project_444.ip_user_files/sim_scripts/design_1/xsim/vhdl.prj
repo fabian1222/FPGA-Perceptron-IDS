@@ -1,0 +1,9 @@
+vhdl xil_defaultlib  \
+"../../../bd/design_1/sim/design_1.vhd" \
+"../../../bd/design_1/ip/design_1_rst_ps7_0_50M_0/sim/design_1_rst_ps7_0_50M_0.vhd" \
+"../../../bd/design_1/ipshared/df7a/hdl/ultimu_axi_slave_lite_v1_0_S00_AXI.vhd" \
+"../../../bd/design_1/ipshared/df7a/hdl/ultimu_axi.vhd" \
+"../../../bd/design_1/ip/design_1_ultimu_axi_0_1/sim/design_1_ultimu_axi_0_1.vhd" \
+
+# Do not sort compile order
+nosort

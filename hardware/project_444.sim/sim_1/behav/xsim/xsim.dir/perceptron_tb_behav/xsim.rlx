@@ -1,0 +1,12 @@
+
+{ 
+    crc :  13641424927509592396  , 
+    ccp_crc :  0  , 
+    cmdline : " --incr --debug typical --relax --mt 2 -L xil_defaultlib -L axi_infrastructure_v1_1_0 -L axi_vip_v1_1_17 -L processing_system7_vip_v1_0_19 -L lib_cdc_v1_0_3 -L proc_sys_reset_v5_0_15 -L generic_baseblocks_v2_1_2 -L fifo_generator_v13_2_10 -L axi_data_fifo_v2_1_30 -L axi_register_slice_v2_1_31 -L axi_protocol_converter_v2_1_31 -L uvm -L xilinx_vip -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot perceptron_tb_behav xil_defaultlib.perceptron_tb xil_defaultlib.glbl" , 
+    buildDate : "May 22 2024" , 
+    buildTime : "19:03:11" , 
+    linkCmd : "C:\\Vivado\\2024.1\\data\\..\\tps\\mingw\\6.2.0\\win64.o\\nt\\bin\\gcc.exe -Wa,-W  -O -Wl,--stack,104857600 -o \"xsim.dir/perceptron_tb_behav/xsimk.exe\"   \"xsim.dir/perceptron_tb_behav/obj/xsim_0.win64.obj\" \"xsim.dir/perceptron_tb_behav/obj/xsim_1.win64.obj\" -L\"C:\\Vivado\\2024.1\\lib\\win64.o\" -lrdi_simulator_kernel   -lrdi_simbridge_kernel" , 
+    aggregate_nets : 
+    [ 
+    ] 
+} 

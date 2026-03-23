@@ -1,0 +1,18 @@
+0.7
+2020.2
+May 22 2024
+19:03:11
+C:/faculta/SSC/project_444/project_444.gen/sources_1/bd/design_1/hdl/design_1_wrapper.vhd,1767809948,vhdl,,,,design_1_wrapper,,,,,,,,
+C:/faculta/SSC/project_444/project_444.ip_user_files/bd/design_1/ip/design_1_auto_pc_0/sim/design_1_auto_pc_0.v,1767809949,verilog,,,,design_1_auto_pc_0,,axi_vip_v1_1_17;processing_system7_vip_v1_0_19;uvm;xilinx_vip,../../../../project_444.gen/sources_1/bd/design_1/ipshared/b28c/hdl;../../../../project_444.gen/sources_1/bd/design_1/ipshared/ec67/hdl;C:/Vivado/2024.1/data/xilinx_vip/include,,,,,
+C:/faculta/SSC/project_444/project_444.ip_user_files/bd/design_1/ip/design_1_processing_system7_0_0/sim/design_1_processing_system7_0_0.v,1767806643,verilog,,C:/faculta/SSC/project_444/project_444.ip_user_files/bd/design_1/ip/design_1_auto_pc_0/sim/design_1_auto_pc_0.v,,design_1_processing_system7_0_0,,axi_vip_v1_1_17;processing_system7_vip_v1_0_19;uvm;xilinx_vip,../../../../project_444.gen/sources_1/bd/design_1/ipshared/b28c/hdl;../../../../project_444.gen/sources_1/bd/design_1/ipshared/ec67/hdl;C:/Vivado/2024.1/data/xilinx_vip/include,,,,,
+C:/faculta/SSC/project_444/project_444.ip_user_files/bd/design_1/ip/design_1_rst_ps7_0_50M_0/sim/design_1_rst_ps7_0_50M_0.vhd,1767806646,vhdl,,,,design_1_rst_ps7_0_50m_0,,,,,,,,
+C:/faculta/SSC/project_444/project_444.ip_user_files/bd/design_1/ip/design_1_ultimu_axi_0_1/sim/design_1_ultimu_axi_0_1.vhd,1767809949,vhdl,,,,design_1_ultimu_axi_0_1,,,,,,,,
+C:/faculta/SSC/project_444/project_444.ip_user_files/bd/design_1/ipshared/df7a/hdl/ultimu_axi.vhd,1767809949,vhdl,,,,ultimu_axi,,,,,,,,
+C:/faculta/SSC/project_444/project_444.ip_user_files/bd/design_1/ipshared/df7a/hdl/ultimu_axi_slave_lite_v1_0_S00_AXI.vhd,1767809949,vhdl,,,,ultimu_axi_slave_lite_v1_0_s00_axi,,,,,,,,
+C:/faculta/SSC/project_444/project_444.ip_user_files/bd/design_1/sim/design_1.vhd,1767809948,vhdl,,,,design_1;design_1_ps7_0_axi_periph_0;s00_couplers_imp_uyskka,,,,,,,,
+C:/faculta/SSC/project_444/project_444.sim/sim_1/behav/xsim/glbl.v,1708598507,verilog,,,,glbl,,axi_vip_v1_1_17;processing_system7_vip_v1_0_19;uvm;xilinx_vip,,,,,,
+C:/faculta/SSC/project_444/project_444.srcs/sim_1/new/perceptron_tb.vhd,1767803025,vhdl,,,,perceptron_tb,,,,,,,,
+C:/faculta/SSC/project_444/project_444.srcs/sources_1/new/adunare_fast.vhd,1767793784,vhdl,C:/faculta/SSC/project_444/project_444.srcs/sources_1/new/perceptron_top.vhd;C:/faculta/SSC/project_444/project_444.srcs/sources_1/new/scadere.vhd,,,adunare_fast,,,,,,,,
+C:/faculta/SSC/project_444/project_444.srcs/sources_1/new/mul.vhd,1767793784,vhdl,C:/faculta/SSC/project_444/project_444.srcs/sources_1/new/perceptron_top.vhd,,,mul,,,,,,,,
+C:/faculta/SSC/project_444/project_444.srcs/sources_1/new/perceptron_top.vhd,1767803025,vhdl,C:/faculta/SSC/project_444/project_444.srcs/sim_1/new/perceptron_tb.vhd,,,perceptron_top,,,,,,,,
+C:/faculta/SSC/project_444/project_444.srcs/sources_1/new/scadere.vhd,1767793669,vhdl,C:/faculta/SSC/project_444/project_444.srcs/sources_1/new/perceptron_top.vhd,,,scadere,,,,,,,,

@@ -1,0 +1,54 @@
+Iată textul reformatat, fără blocuri de cod pentru formule, gata de a fi copiat și lipit direct într-un document (Google Docs sau Word). Formulele matematice sunt scrise folosind caractere standard pentru a se integra natural în text.
+
+Descrierea Algoritmilor și a Formatului Datelor
+Această secțiune detaliază logica de funcționare a perceptronului simplu implementat, algoritmul de învățare supervizată utilizat și standardele de reprezentare a datelor pentru interacțiunea dintre componenta software (Python) și cea hardware (VHDL).
+
+1. Algoritmul Perceptronului
+Implementarea se bazează pe modelul clasic al perceptronului cu un singur strat (Single Layer Perceptron), utilizat pentru clasificarea binară a datelor liniar separabile.
+
+Funcționarea nodului: Perceptronul calculează o sumă ponderată a intrărilor, la care se adaugă un termen liber (bias). În implementarea software, bias-ul este tratat ca o intrare suplimentară cu valoarea constantă 1.0 adăugată vectorului de intrare.
+
+Formula de calcul pentru suma ponderată (S) este: S = ∑ (xi · wi)
+
+Funcția de Activare: Pentru decizia de clasificare, se utilizează funcția treaptă (Heaviside). Dacă suma ponderată este mai mare sau egală cu 0, ieșirea este 1; altfel, este 0.
+
+Output = 1, dacă S ≥ 0 Output = 0, dacă S < 0
+
+Algoritmul de Învățare (Regula Delta): Antrenarea se realizează prin ajustarea iterativă a ponderilor folosind regula de învățare a perceptronului. Ponderile sunt inițializate cu zero. Pentru fiecare epocă și fiecare set de date, eroarea este calculată ca diferența dintre valoarea așteptată (d) și valoarea obținută (y).
+
+Actualizarea ponderilor se face conform formulei: w_nou = w_vechi + α · (d - y) · xi
+
+Unde α este rata de învățare (learning rate), setată în cod la valoarea 0.1.
+
+2. Implementarea Aritmetică Hardware
+Pentru componenta hardware descrisă în fișierele VHDL, calculele nu se fac pe numere întregi, ci respectă standardul IEEE 754 în virgulă mobilă, simplă precizie (32 biți).
+
+Modulul de adunare (adunare_fast) implementează un pipeline pentru operațiile cu numere reale, parcurgând etapele specifice aritmeticii flotante:
+
+
+Alinierea mantiselor: Compararea exponenților și shiftarea mantisei numărului mai mic .
+
+
+Calculul efectiv: Adunarea sau scăderea mantiselor aliniate .
+
+
+Normalizarea și rotunjirea: Ajustarea rezultatului folosind un detector de zero-uri (Leading Zero Detector - LZC) pentru a aduce rezultatul în formatul standard IEEE 754 .
+
+3. Formatul și Structura Datelor
+Transferul datelor între mediul de simulare/antrenare software și implementarea hardware necesită conversia valorilor zecimale în format hexazecimal compatibil IEEE 754.
+
+Fișierele de Intrare (fisierInputs.txt): Datele brute sunt stocate în format text zecimal. Prima linie conține valorile de intrare concatenate, iar a doua linie conține etichetele (rezultatele așteptate). Scriptul Python prelucrează acest șir liniar și îl împarte în vectori de dimensiune fixă.
+
+Generarea Datelor pentru Hardware (training_hex.txt): Scriptul convertește intrările și bias-ul în reprezentare hexazecimală pe 32 de biți (Big Endian). Structura fișierului generat este:
+
+Header: Numărul de exemple și numărul de trăsături (inclusiv bias).
+
+Conținut: Fiecare linie reprezintă un vector de intrare complet, urmat de etichetă.
+
+Exemplu: "00000000 00000000 3F800000 00000000" corespunde vectorului [0.0, 0.0, 1.0] (unde 3F800000 este 1.0 în float) și etichetei 0.
+
+Ponderile Antrenate (trained_weights.txt): După finalizarea antrenării, ponderile sunt salvate în două formate pentru verificare:
+
+FLOAT_WEIGHTS: Valori zecimale ușor de citit (ex: 0.1, -0.1).
+
+HEX_IEEE754_WEIGHTS: Reprezentarea hexazecimală utilizată pentru încărcarea în memoria hardware-ului (ex: 3DCCCCCD pentru 0.1).

@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Wed Jan  7 20:25:19 2026
+# Process ID: 35972
+# Current directory: C:/faculta/SSC/project_444/project_444.runs/impl_1
+# Command line: vivado.exe -log design_1_wrapper.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source design_1_wrapper.tcl -notrace
+# Log file: C:/faculta/SSC/project_444/project_444.runs/impl_1/design_1_wrapper.vdi
+# Journal file: C:/faculta/SSC/project_444/project_444.runs/impl_1\vivado.jou
+# Running On        :DESKTOP-Q9N8PVP
+# Platform          :Windows Server 2016 or Windows 10
+# Operating System  :26200
+# Processor Detail  :AMD Ryzen 7 6800H with Radeon Graphics         
+# CPU Frequency     :3194 MHz
+# CPU Physical cores:8
+# CPU Logical cores :16
+# Host memory       :33492 MB
+# Swap memory       :2147 MB
+# Total Virtual     :35639 MB
+# Available Virtual :9474 MB
+#-----------------------------------------------------------
+source design_1_wrapper.tcl -notrace

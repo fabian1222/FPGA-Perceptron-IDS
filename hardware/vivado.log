@@ -1,0 +1,723 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Wed Jan  7 19:09:07 2026
+# Process ID: 37536
+# Current directory: C:/faculta/SSC/project_444
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent34068 C:\faculta\SSC\project_444\project_444.xpr
+# Log file: C:/faculta/SSC/project_444/vivado.log
+# Journal file: C:/faculta/SSC/project_444\vivado.jou
+# Running On        :DESKTOP-Q9N8PVP
+# Platform          :Windows Server 2016 or Windows 10
+# Operating System  :26200
+# Processor Detail  :AMD Ryzen 7 6800H with Radeon Graphics         
+# CPU Frequency     :3194 MHz
+# CPU Physical cores:8
+# CPU Logical cores :16
+# Host memory       :33492 MB
+# Swap memory       :2147 MB
+# Total Virtual     :35639 MB
+# Available Virtual :12666 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/faculta/SSC/project_444/project_444.xpr
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:genesys2:part0:1.1 available at C:/Vivado/2024.1/data/boards/board_files/genesys2/H/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:sword:part0:1.0 available at C:/Vivado/2024.1/data/boards/board_files/sword/C.0/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:1.6 available at C:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kc705/1.6/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.6 available at C:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.6/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.7 available at C:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.7/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu1500:part0:1.2 available at C:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu1500/1.2/board.xml as part xcku115-flvb2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc707:part0:1.4 available at C:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc707/1.4/board.xml as part xc7vx485tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc709:part0:1.8 available at C:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc709/1.8/board.xml as part xc7vx690tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:2.2 available at C:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/2.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.0 available at C:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.1 available at C:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.2 available at C:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.3 available at C:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.3/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.0 available at C:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.1 available at C:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.2 available at C:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.6 available at C:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.6/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.7 available at C:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.7/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu110:part0:1.4 available at C:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu110/1.4/board.xml as part xcvu190-flgc2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.0 available at C:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.0/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.3 available at C:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.3/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.4 available at C:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.4/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at C:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu129/production/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu1525:part0:1.3 available at C:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu1525/1.3/board.xml as part xcvu9p-fsgd2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280:part0:1.0 available at C:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/production/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280:part0:1.1 available at C:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/production/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280:part0:1.2 available at C:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/production/1.2/board.xml as part xcve2802-vsvh1760-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at C:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at C:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.0 available at C:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at C:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_mpsoc:part0:1.0 available at C:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_mpsoc/1.0/board.xml as part xczu19eg-ffvd1760-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_rfsoc:part0:1.0 available at C:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_rfsoc/1.0/board.xml as part xczu21dr-ffvd1156-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.0 available at C:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/production/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.1 available at C:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/production/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at C:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.1 available at C:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:2.2 available at C:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/2.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.0 available at C:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.1 available at C:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.2 available at C:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.0 available at C:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.1 available at C:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.0 available at C:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.1 available at C:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.1/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.2 available at C:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.0 available at C:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.1 available at C:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.1/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.2 available at C:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.2/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:part0:1.4 available at C:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zc706/1.4/board.xml as part xc7z045ffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.3 available at C:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.3/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.4 available at C:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.4/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.2 available at C:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.2/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.3 available at C:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.3/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.4 available at C:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.4/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1275:part0:1.0 available at C:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1275/1.0/board.xml as part xczu29dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1285:part0:1.0 available at C:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1285/1.0/board.xml as part xczu39dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208:part0:2.0 available at C:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208/production/2.0/board.xml as part xczu48dr-fsvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at C:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216:part0:2.0 available at C:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216/production/2.0/board.xml as part xczu49dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at C:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at C:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at C:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/faculta/SSC/AXI4_1_0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/faculta/SSC/ip_repo/speram_1_0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/faculta/SSC/ip_repo/perceptron_axi_1_0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/faculta/SSC/ip_repo/Perceptron_IP_1_0'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Vivado/2024.1/data/ip'.
+open_project: Time (s): cpu = 00:00:43 ; elapsed = 00:00:20 . Memory (MB): peak = 1654.367 ; gain = 526.688
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'design_perceptron_wrapper'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/faculta/SSC/project_444/project_444.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-13660] Precompiled IP simulation library mode is enabled (default). The design IP libraries will be referenced from the compiled library path. Please note that if the precompiled version of the library is not found from the path or the IP is in locked state, then the library source files for these IPs will be compiled locally as part of the compile order.
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Vivado/2024.1/tps/boost_1_72_0'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Vivado/2024.1/data/xsim/xsim.ini' copied to run dir:'C:/faculta/SSC/project_444/project_444.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'design_perceptron_wrapper' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/faculta/SSC/project_444/project_444.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj design_perceptron_wrapper_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/faculta/SSC/project_444/project_444.gen/sources_1/ip/AXI4_0/hdl/AXI4_slave_lite_v1_0_S00_AXI.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'AXI4_slave_lite_v1_0_S00_AXI'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/faculta/SSC/project_444/project_444.gen/sources_1/ip/AXI4_0/hdl/AXI4.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'perceptron_axi_slave_lite_v1_0_S00_AXI'
+ERROR: [VRFC 10-2987] 'perceptron_top' is not compiled in library 'xil_defaultlib' [C:/faculta/SSC/project_444/project_444.gen/sources_1/ip/AXI4_0/hdl/AXI4.vhd:309]
+ERROR: [VRFC 10-9458] unit 'arch_imp' is ignored due to previous errors [C:/faculta/SSC/project_444/project_444.gen/sources_1/ip/AXI4_0/hdl/AXI4.vhd:47]
+INFO: [VRFC 10-8704] VHDL file 'C:/faculta/SSC/project_444/project_444.gen/sources_1/ip/AXI4_0/hdl/AXI4.vhd' is ignored due to errors
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/faculta/SSC/project_444/project_444.sim/sim_1/behav/xsim/xvhdl.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'C:/faculta/SSC/project_444/project_444.sim/sim_1/behav/xsim/xvhdl.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+export_ip_user_files -of_objects  [get_files C:/faculta/SSC/project_444/project_444.srcs/sources_1/bd/design_1/design_1.bd] -no_script -reset -force -quiet
+remove_files  C:/faculta/SSC/project_444/project_444.srcs/sources_1/bd/design_1/design_1.bd
+remove_files  C:/faculta/SSC/project_444/project_444.srcs/sources_1/bd/design_1/design_1.bd
+WARNING: [Vivado 12-818] No files matched 'C:/faculta/SSC/project_444/project_444.srcs/sources_1/bd/design_1/design_1.bd'
+export_ip_user_files -of_objects  [get_files C:/faculta/SSC/project_444/project_444.srcs/sources_1/ip/AXI4_0/AXI4_0.xci] -no_script -reset -force -quiet
+remove_files  -fileset AXI4_0 C:/faculta/SSC/project_444/project_444.srcs/sources_1/ip/AXI4_0/AXI4_0.xci
+INFO: [Project 1-386] Moving file 'C:/faculta/SSC/project_444/project_444.srcs/sources_1/ip/AXI4_0/AXI4_0.xci' from fileset 'AXI4_0' to fileset 'sources_1'.
+remove_files  C:/faculta/SSC/project_444/project_444.srcs/sources_1/ip/AXI4_0/AXI4_0.xci
+WARNING: [Vivado 12-818] No files matched 'C:/faculta/SSC/project_444/project_444.srcs/sources_1/ip/AXI4_0/AXI4_0.xci'
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'design_perceptron_wrapper'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/faculta/SSC/project_444/project_444.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Vivado/2024.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'design_perceptron_wrapper' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/faculta/SSC/project_444/project_444.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj design_perceptron_wrapper_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/faculta/SSC/project_444/project_444.srcs/sources_1/new/adunare_fast.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'adunare_fast'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/faculta/SSC/project_444/project_444.srcs/sources_1/new/mul.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'mul'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/faculta/SSC/project_444/project_444.srcs/sources_1/new/scadere.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'scadere'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/faculta/SSC/project_444/project_444.srcs/sources_1/new/perceptron_top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'perceptron_top'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/faculta/SSC/project_444/project_444.srcs/sim_1/new/perceptron_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'perceptron_tb'
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/faculta/SSC/project_444/project_444.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot design_perceptron_wrapper_behav xil_defaultlib.design_perceptron_wrapper -log elaborate.log"
+Vivado Simulator v2024.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Vivado/2024.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot design_perceptron_wrapper_behav xil_defaultlib.design_perceptron_wrapper -log elaborate.log 
+Using 2 slave threads.
+ERROR: [XSIM 43-3225] Cannot find design unit xil_defaultlib.design_perceptron_wrapper in library work located at xsim.dir/work.
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/faculta/SSC/project_444/project_444.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/faculta/SSC/project_444/project_444.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 1704.816 ; gain = 20.902
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+set_property top perceptron_tb [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\faculta\SSC\project_444\project_444.srcs\sources_1\new\perceptron_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\faculta\SSC\project_444\project_444.srcs\sim_1\new\perceptron_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\faculta\SSC\project_444\project_444.srcs\sources_1\new\perceptron_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\faculta\SSC\project_444\project_444.srcs\sources_1\new\perceptron_top.vhd:]
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'perceptron_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/faculta/SSC/project_444/project_444.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Vivado/2024.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'perceptron_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/faculta/SSC/project_444/project_444.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj perceptron_tb_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/faculta/SSC/project_444/project_444.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot perceptron_tb_behav xil_defaultlib.perceptron_tb -log elaborate.log"
+Vivado Simulator v2024.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Vivado/2024.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot perceptron_tb_behav xil_defaultlib.perceptron_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.mul [mul_default]
+Compiling architecture behavioral of entity xil_defaultlib.adunare_fast [adunare_fast_default]
+Compiling architecture behavioral of entity xil_defaultlib.scadere [scadere_default]
+Compiling architecture behavioral of entity xil_defaultlib.perceptron_top [perceptron_top_default]
+Compiling architecture sim of entity xil_defaultlib.perceptron_tb
+Built simulation snapshot perceptron_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/faculta/SSC/project_444/project_444.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "perceptron_tb_behav -key {Behavioral:sim_1:Functional:perceptron_tb} -tclbatch {perceptron_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source perceptron_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+Failure: Simulare terminata cu succes
+Time: 340 ns  Iteration: 0  Process: /perceptron_tb/stim_proc  File: C:/faculta/SSC/project_444/project_444.srcs/sim_1/new/perceptron_tb.vhd
+$finish called at time : 340 ns : File "C:/faculta/SSC/project_444/project_444.srcs/sim_1/new/perceptron_tb.vhd" Line 88
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'perceptron_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 1718.879 ; gain = 14.062
+create_bd_design "design_1"
+Wrote  : <C:\faculta\SSC\project_444\project_444.srcs\sources_1\bd\design_1\design_1.bd> 
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\faculta\SSC\project_444\project_444.srcs\sources_1\new\perceptron_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\faculta\SSC\project_444\project_444.srcs\sim_1\new\perceptron_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\faculta\SSC\project_444\project_444.srcs\sim_1\new\perceptron_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\faculta\SSC\project_444\project_444.srcs\sim_1\new\perceptron_tb.vhd:]
+ERROR: [Common 17-180] Spawn failed: No error
+create_bd_design: Time (s): cpu = 00:00:10 ; elapsed = 00:00:06 . Memory (MB): peak = 2866.723 ; gain = 70.336
+ERROR: [Common 17-39] 'create_bd_design' failed due to earlier errors.
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:user:AXI4:1.0 AXI4_0
+endgroup
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:processing_system7:5.5 processing_system7_0
+endgroup
+apply_bd_automation -rule xilinx.com:bd_rule:processing_system7 -config {make_external "FIXED_IO, DDR" apply_board_preset "1" Master "Disable" Slave "Disable" }  [get_bd_cells processing_system7_0]
+apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config { Clk_master {Auto} Clk_slave {Auto} Clk_xbar {Auto} Master {/processing_system7_0/M_AXI_GP0} Slave {/AXI4_0/S00_AXI} ddr_seg {Auto} intc_ip {New AXI Interconnect} master_apm {0}}  [get_bd_intf_pins AXI4_0/S00_AXI]
+INFO: [Ipptcl 7-1463] No Compatible Board Interface found. Board Tab not created in customize GUI
+Slave segment '/AXI4_0/S00_AXI/S00_AXI_reg' is being assigned into address space '/processing_system7_0/Data' at <0x43C0_0000 [ 64K ]>.
+validate_bd_design
+CRITICAL WARNING: [PSU-1]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_0 has negative value -0.050 . PS DDR interfaces might fail when entering negative DQS skew values. 
+CRITICAL WARNING: [PSU-2]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_1 has negative value -0.044 . PS DDR interfaces might fail when entering negative DQS skew values. 
+CRITICAL WARNING: [PSU-3]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_2 has negative value -0.035 . PS DDR interfaces might fail when entering negative DQS skew values. 
+CRITICAL WARNING: [PSU-4]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_3 has negative value -0.100 . PS DDR interfaces might fail when entering negative DQS skew values. 
+validate_bd_design -force
+save_bd_design
+Wrote  : <C:\faculta\SSC\project_444\project_444.srcs\sources_1\bd\design_1\design_1.bd> 
+Wrote  : <C:/faculta/SSC/project_444/project_444.srcs/sources_1/bd/design_1/ui/bd_1f5defd0.ui> 
+make_wrapper -files [get_files C:/faculta/SSC/project_444/project_444.srcs/sources_1/bd/design_1/design_1.bd] -top
+INFO: [BD 41-1662] The design 'design_1.bd' is already validated. Therefore parameter propagation will not be re-run.
+VHDL Output written to : C:/faculta/SSC/project_444/project_444.gen/sources_1/bd/design_1/synth/design_1.vhd
+VHDL Output written to : C:/faculta/SSC/project_444/project_444.gen/sources_1/bd/design_1/sim/design_1.vhd
+VHDL Output written to : C:/faculta/SSC/project_444/project_444.gen/sources_1/bd/design_1/hdl/design_1_wrapper.vhd
+add_files -norecurse c:/faculta/SSC/project_444/project_444.gen/sources_1/bd/design_1/hdl/design_1_wrapper.vhd
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\faculta\SSC\project_444\project_444.srcs\sources_1\new\perceptron_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\faculta\SSC\project_444\project_444.srcs\sim_1\new\perceptron_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\faculta\SSC\project_444\project_444.srcs\sim_1\new\perceptron_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\faculta\SSC\project_444\project_444.srcs\sim_1\new\perceptron_tb.vhd:]
+ERROR: [Common 17-180] Spawn failed: No error
+set_property top design_1_wrapper [current_fileset]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\faculta\SSC\project_444\project_444.srcs\sources_1\new\perceptron_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\faculta\SSC\project_444\project_444.srcs\sim_1\new\perceptron_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\faculta\SSC\project_444\project_444.srcs\sources_1\new\perceptron_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\faculta\SSC\project_444\project_444.srcs\sources_1\new\perceptron_top.vhd:]
+reset_run synth_1
+INFO: [Project 1-1160] Copying file C:/faculta/SSC/project_444/project_444.runs/synth_1/perceptron_top.dcp to C:/faculta/SSC/project_444/project_444.srcs/utils_1/imports/synth_1 and adding it to utils fileset
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/faculta/SSC/project_444/project_444.runs/synth_1
+
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\faculta\SSC\project_444\project_444.srcs\sources_1\new\perceptron_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\faculta\SSC\project_444\project_444.srcs\sim_1\new\perceptron_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\faculta\SSC\project_444\project_444.srcs\sim_1\new\perceptron_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\faculta\SSC\project_444\project_444.srcs\sim_1\new\perceptron_tb.vhd:]
+ERROR: [Common 17-180] Spawn failed: No error
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+INFO: [BD 41-1662] The design 'design_1.bd' is already validated. Therefore parameter propagation will not be re-run.
+Wrote  : <C:/faculta/SSC/project_444/project_444.srcs/sources_1/bd/design_1/ui/bd_1f5defd0.ui> 
+VHDL Output written to : C:/faculta/SSC/project_444/project_444.gen/sources_1/bd/design_1/synth/design_1.vhd
+VHDL Output written to : C:/faculta/SSC/project_444/project_444.gen/sources_1/bd/design_1/sim/design_1.vhd
+VHDL Output written to : C:/faculta/SSC/project_444/project_444.gen/sources_1/bd/design_1/hdl/design_1_wrapper.vhd
+INFO: [BD 41-1029] Generation completed for the IP Integrator block AXI4_0 .
+INFO: [IP_Flow 19-5611] Unable to find an associated reset port for the interface 'M_AXI_GP0'. A default connection has been created.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0 .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/faculta/SSC/project_444/project_444.gen/sources_1/bd/design_1/ip/design_1_auto_pc_0/design_1_auto_pc_0_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/s00_couplers/auto_pc .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rst_ps7_0_50M .
+Exporting to file C:/faculta/SSC/project_444/project_444.gen/sources_1/bd/design_1/hw_handoff/design_1.hwh
+Generated Hardware Definition File C:/faculta/SSC/project_444/project_444.gen/sources_1/bd/design_1/synth/design_1.hwdef
+INFO: [IP_Flow 19-6930] IPCACHE: runCacheChecks() number of threads = 8
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP design_1_auto_pc_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP design_1_rst_ps7_0_50M_0
+INFO: [IP_Flow 19-8020] IPCACHE: runCacheChecks() calling threadPool finishWork()
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: design_1_auto_pc_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: design_1_rst_ps7_0_50M_0
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\faculta\SSC\project_444\project_444.srcs\sources_1\new\perceptron_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\faculta\SSC\project_444\project_444.srcs\sim_1\new\perceptron_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\faculta\SSC\project_444\project_444.srcs\sim_1\new\perceptron_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\faculta\SSC\project_444\project_444.srcs\sim_1\new\perceptron_tb.vhd:]
+ERROR: [Common 17-180] Spawn failed: No error
+[Wed Jan  7 19:24:16 2026] Launched design_1_processing_system7_0_0_synth_1, design_1_rst_ps7_0_50M_0_synth_1, design_1_auto_pc_0_synth_1, design_1_AXI4_0_0_synth_1, synth_1...
+Run output will be captured here:
+design_1_processing_system7_0_0_synth_1: C:/faculta/SSC/project_444/project_444.runs/design_1_processing_system7_0_0_synth_1/runme.log
+design_1_rst_ps7_0_50M_0_synth_1: C:/faculta/SSC/project_444/project_444.runs/design_1_rst_ps7_0_50M_0_synth_1/runme.log
+design_1_auto_pc_0_synth_1: C:/faculta/SSC/project_444/project_444.runs/design_1_auto_pc_0_synth_1/runme.log
+design_1_AXI4_0_0_synth_1: C:/faculta/SSC/project_444/project_444.runs/design_1_AXI4_0_0_synth_1/runme.log
+synth_1: C:/faculta/SSC/project_444/project_444.runs/synth_1/runme.log
+[Wed Jan  7 19:24:16 2026] Launched impl_1...
+Run output will be captured here: C:/faculta/SSC/project_444/project_444.runs/impl_1/runme.log
+launch_runs: Time (s): cpu = 00:00:26 ; elapsed = 00:00:33 . Memory (MB): peak = 2866.723 ; gain = 0.000
+ERROR: [Common 17-39] 'launch_runs' failed due to earlier errors.
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/faculta/SSC/project_444/project_444.runs/synth_1
+
+launch_runs synth_1 -jobs 8
+INFO: [IP_Flow 19-6930] IPCACHE: runCacheChecks() number of threads = 8
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP design_1_auto_pc_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP design_1_rst_ps7_0_50M_0
+INFO: [IP_Flow 19-8020] IPCACHE: runCacheChecks() calling threadPool finishWork()
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: design_1_auto_pc_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: design_1_rst_ps7_0_50M_0
+[Wed Jan  7 19:25:20 2026] Launched design_1_processing_system7_0_0_synth_1, design_1_rst_ps7_0_50M_0_synth_1, design_1_auto_pc_0_synth_1, design_1_AXI4_0_0_synth_1...
+Run output will be captured here:
+design_1_processing_system7_0_0_synth_1: C:/faculta/SSC/project_444/project_444.runs/design_1_processing_system7_0_0_synth_1/runme.log
+design_1_rst_ps7_0_50M_0_synth_1: C:/faculta/SSC/project_444/project_444.runs/design_1_rst_ps7_0_50M_0_synth_1/runme.log
+design_1_auto_pc_0_synth_1: C:/faculta/SSC/project_444/project_444.runs/design_1_auto_pc_0_synth_1/runme.log
+design_1_AXI4_0_0_synth_1: C:/faculta/SSC/project_444/project_444.runs/design_1_AXI4_0_0_synth_1/runme.log
+[Wed Jan  7 19:25:20 2026] Launched synth_1...
+Run output will be captured here: C:/faculta/SSC/project_444/project_444.runs/synth_1/runme.log
+launch_runs: Time (s): cpu = 00:00:02 ; elapsed = 00:00:05 . Memory (MB): peak = 2866.723 ; gain = 0.000
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\faculta\SSC\project_444\project_444.srcs\sources_1\new\perceptron_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\faculta\SSC\project_444\project_444.srcs\sim_1\new\perceptron_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\faculta\SSC\project_444\project_444.srcs\sim_1\new\perceptron_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\faculta\SSC\project_444\project_444.srcs\sim_1\new\perceptron_tb.vhd:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\faculta\SSC\project_444\project_444.srcs\sources_1\new\perceptron_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\faculta\SSC\project_444\project_444.srcs\sim_1\new\perceptron_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\faculta\SSC\project_444\project_444.srcs\sim_1\new\perceptron_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\faculta\SSC\project_444\project_444.srcs\sim_1\new\perceptron_tb.vhd:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\faculta\SSC\project_444\project_444.srcs\sources_1\new\perceptron_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\faculta\SSC\project_444\project_444.srcs\sim_1\new\perceptron_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\faculta\SSC\project_444\project_444.srcs\sources_1\new\perceptron_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\faculta\SSC\project_444\project_444.srcs\sources_1\new\perceptron_top.vhd:]
+ERROR: [Common 17-180] Spawn failed: No error
+launch_runs impl_1 -jobs 8
+[Wed Jan  7 19:27:59 2026] Launched impl_1...
+Run output will be captured here: C:/faculta/SSC/project_444/project_444.runs/impl_1/runme.log
+reset_run impl_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. PID not specified
+
+launch_runs impl_1 -jobs 8
+[Wed Jan  7 19:28:07 2026] Launched impl_1...
+Run output will be captured here: C:/faculta/SSC/project_444/project_444.runs/impl_1/runme.log
+generate_target all [get_files  C:/faculta/SSC/project_444/project_444.srcs/sources_1/bd/design_1/design_1.bd]
+INFO: [BD 41-1637] Generated targets are already up-to-date for block design 'design_1' - hence not re-generating.
+export_ip_user_files -of_objects [get_files C:/faculta/SSC/project_444/project_444.srcs/sources_1/bd/design_1/design_1.bd] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] C:/faculta/SSC/project_444/project_444.srcs/sources_1/bd/design_1/design_1.bd]
+export_simulation -of_objects [get_files C:/faculta/SSC/project_444/project_444.srcs/sources_1/bd/design_1/design_1.bd] -directory C:/faculta/SSC/project_444/project_444.ip_user_files/sim_scripts -ip_user_files_dir C:/faculta/SSC/project_444/project_444.ip_user_files -ipstatic_source_dir C:/faculta/SSC/project_444/project_444.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/faculta/SSC/project_444/project_444.cache/compile_simlib/modelsim} {questa=C:/faculta/SSC/project_444/project_444.cache/compile_simlib/questa} {riviera=C:/faculta/SSC/project_444/project_444.cache/compile_simlib/riviera} {activehdl=C:/faculta/SSC/project_444/project_444.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+reset_run impl_1
+launch_runs impl_1 -jobs 8
+[Wed Jan  7 19:34:30 2026] Launched impl_1...
+Run output will be captured here: C:/faculta/SSC/project_444/project_444.runs/impl_1/runme.log
+export_ip_user_files -of_objects  [get_files c:/faculta/SSC/project_444/project_444.gen/sources_1/bd/design_1/hdl/design_1_wrapper.vhd] -no_script -reset -force -quiet
+remove_files  c:/faculta/SSC/project_444/project_444.gen/sources_1/bd/design_1/hdl/design_1_wrapper.vhd
+remove_files  c:/faculta/SSC/project_444/project_444.gen/sources_1/bd/design_1/hdl/design_1_wrapper.vhd
+WARNING: [Vivado 12-818] No files matched 'c:/faculta/SSC/project_444/project_444.gen/sources_1/bd/design_1/hdl/design_1_wrapper.vhd'
+open_bd_design {C:/faculta/SSC/project_444/project_444.srcs/sources_1/bd/design_1/design_1.bd}
+delete_bd_objs [get_bd_intf_nets ps7_0_axi_periph_M00_AXI] [get_bd_cells AXI4_0]
+create_peripheral xilinx.com user perceptron_axi 1.0 -dir C:/faculta/SSC
+add_peripheral_interface S00_AXI -interface_mode slave -axi_type lite [ipx::find_open_core xilinx.com:user:perceptron_axi:1.0]
+set_property VALUE 10 [ipx::get_bus_parameters WIZ_NUM_REG -of_objects [ipx::get_bus_interfaces S00_AXI -of_objects [ipx::find_open_core xilinx.com:user:perceptron_axi:1.0]]]
+generate_peripheral -driver -bfm_example_design -debug_hw_example_design [ipx::find_open_core xilinx.com:user:perceptron_axi:1.0]
+write_peripheral [ipx::find_open_core xilinx.com:user:perceptron_axi:1.0]
+set_property  ip_repo_paths  {C:/faculta/SSC/perceptron_axi_1_0 C:/faculta/SSC/AXI4_1_0 C:/faculta/SSC/ip_repo/speram_1_0 C:/faculta/SSC/ip_repo/perceptron_axi_1_0 C:/faculta/SSC/ip_repo/Perceptron_IP_1_0} [current_project]
+update_ip_catalog -rebuild
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/faculta/SSC/perceptron_axi_1_0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/faculta/SSC/AXI4_1_0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/faculta/SSC/ip_repo/speram_1_0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/faculta/SSC/ip_repo/perceptron_axi_1_0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/faculta/SSC/ip_repo/Perceptron_IP_1_0'.
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:user:perceptron_axi:1.0'. The one found in IP location 'c:/faculta/SSC/perceptron_axi_1_0' will take precedence over the same IP in location c:/faculta/SSC/ip_repo/perceptron_axi_1_0
+open_bd_design {C:/faculta/SSC/project_444/project_444.srcs/sources_1/bd/design_1/design_1.bd}
+create_peripheral xilinx.com user ultimu_axi 1.0 -dir C:/faculta/SSC/project_444/../ip_repo
+add_peripheral_interface S00_AXI -interface_mode slave -axi_type lite [ipx::find_open_core xilinx.com:user:ultimu_axi:1.0]
+set_property VALUE 10 [ipx::get_bus_parameters WIZ_NUM_REG -of_objects [ipx::get_bus_interfaces S00_AXI -of_objects [ipx::find_open_core xilinx.com:user:ultimu_axi:1.0]]]
+generate_peripheral -driver -bfm_example_design -debug_hw_example_design [ipx::find_open_core xilinx.com:user:ultimu_axi:1.0]
+write_peripheral [ipx::find_open_core xilinx.com:user:ultimu_axi:1.0]
+set_property  ip_repo_paths  {C:/faculta/SSC/project_444/../ip_repo/ultimu_axi_1_0 C:/faculta/SSC/perceptron_axi_1_0 C:/faculta/SSC/AXI4_1_0 C:/faculta/SSC/ip_repo/speram_1_0 C:/faculta/SSC/ip_repo/perceptron_axi_1_0 C:/faculta/SSC/ip_repo/Perceptron_IP_1_0} [current_project]
+update_ip_catalog -rebuild
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/faculta/SSC/ip_repo/ultimu_axi_1_0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/faculta/SSC/perceptron_axi_1_0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/faculta/SSC/AXI4_1_0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/faculta/SSC/ip_repo/speram_1_0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/faculta/SSC/ip_repo/perceptron_axi_1_0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/faculta/SSC/ip_repo/Perceptron_IP_1_0'.
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:user:perceptron_axi:1.0'. The one found in IP location 'c:/faculta/SSC/perceptron_axi_1_0' will take precedence over the same IP in location c:/faculta/SSC/ip_repo/perceptron_axi_1_0
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:user:ultimu_axi:1.0 ultimu_axi_0
+endgroup
+apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config { Clk_master {/processing_system7_0/FCLK_CLK0 (50 MHz)} Clk_slave {Auto} Clk_xbar {/processing_system7_0/FCLK_CLK0 (50 MHz)} Master {/processing_system7_0/M_AXI_GP0} Slave {/ultimu_axi_0/S00_AXI} ddr_seg {Auto} intc_ip {/ps7_0_axi_periph} master_apm {0}}  [get_bd_intf_pins ultimu_axi_0/S00_AXI]
+Slave segment '/ultimu_axi_0/S00_AXI/S00_AXI_reg' is being assigned into address space '/processing_system7_0/Data' at <0x43C0_0000 [ 64K ]>.
+validate_bd_design
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\faculta\SSC\project_444\project_444.srcs\sources_1\new\perceptron_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\faculta\SSC\project_444\project_444.srcs\sim_1\new\perceptron_tb.vhd:]
+ERROR: [Common 17-180] Spawn failed: No error
+ipx::edit_ip_in_project -upgrade true -name ultimu_axi_v1_0_project -directory C:/faculta/SSC/project_444/project_444.tmp/ultimu_axi_v1_0_project c:/faculta/SSC/ip_repo/ultimu_axi_1_0/component.xml
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Vivado/2024.1/data/ip'.
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:genesys2:part0:1.1 available at C:/Vivado/2024.1/data/boards/board_files/genesys2/H/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:sword:part0:1.0 available at C:/Vivado/2024.1/data/boards/board_files/sword/C.0/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:1.6 available at C:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kc705/1.6/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.6 available at C:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.6/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.7 available at C:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.7/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu1500:part0:1.2 available at C:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu1500/1.2/board.xml as part xcku115-flvb2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc707:part0:1.4 available at C:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc707/1.4/board.xml as part xc7vx485tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc709:part0:1.8 available at C:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc709/1.8/board.xml as part xc7vx690tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:2.2 available at C:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/2.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.0 available at C:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.1 available at C:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.2 available at C:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.3 available at C:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.3/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.0 available at C:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.1 available at C:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.2 available at C:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.6 available at C:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.6/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.7 available at C:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.7/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu110:part0:1.4 available at C:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu110/1.4/board.xml as part xcvu190-flgc2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.0 available at C:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.0/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.3 available at C:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.3/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.4 available at C:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.4/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at C:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu129/production/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu1525:part0:1.3 available at C:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu1525/1.3/board.xml as part xcvu9p-fsgd2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280:part0:1.0 available at C:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/production/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280:part0:1.1 available at C:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/production/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280:part0:1.2 available at C:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/production/1.2/board.xml as part xcve2802-vsvh1760-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at C:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at C:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.0 available at C:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at C:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_mpsoc:part0:1.0 available at C:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_mpsoc/1.0/board.xml as part xczu19eg-ffvd1760-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_rfsoc:part0:1.0 available at C:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_rfsoc/1.0/board.xml as part xczu21dr-ffvd1156-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.0 available at C:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/production/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.1 available at C:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/production/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at C:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.1 available at C:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:2.2 available at C:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/2.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.0 available at C:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.1 available at C:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.2 available at C:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.0 available at C:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.1 available at C:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.0 available at C:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.1 available at C:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.1/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.2 available at C:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.0 available at C:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.1 available at C:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.1/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.2 available at C:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.2/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:part0:1.4 available at C:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zc706/1.4/board.xml as part xc7z045ffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.3 available at C:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.3/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.4 available at C:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.4/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.2 available at C:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.2/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.3 available at C:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.3/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.4 available at C:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.4/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1275:part0:1.0 available at C:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1275/1.0/board.xml as part xczu29dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1285:part0:1.0 available at C:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1285/1.0/board.xml as part xczu39dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208:part0:2.0 available at C:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208/production/2.0/board.xml as part xczu48dr-fsvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at C:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216:part0:2.0 available at C:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216/production/2.0/board.xml as part xczu49dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at C:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at C:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at C:/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/faculta/SSC/ip_repo/ultimu_axi_1_0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/faculta/SSC/perceptron_axi_1_0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/faculta/SSC/AXI4_1_0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/faculta/SSC/ip_repo/speram_1_0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/faculta/SSC/ip_repo/perceptron_axi_1_0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/faculta/SSC/ip_repo/Perceptron_IP_1_0'.
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:user:perceptron_axi:1.0'. The one found in IP location 'c:/faculta/SSC/perceptron_axi_1_0' will take precedence over the same IP in location c:/faculta/SSC/ip_repo/perceptron_axi_1_0
+INFO: [IP_Flow 19-795] Syncing license key meta-data
+ipx::edit_ip_in_project: Time (s): cpu = 00:00:09 ; elapsed = 00:00:05 . Memory (MB): peak = 2866.723 ; gain = 0.000
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\faculta\SSC\project_444\project_444.srcs\sources_1\new\perceptron_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\faculta\SSC\project_444\project_444.srcs\sim_1\new\perceptron_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\faculta\SSC\project_444\project_444.srcs\sim_1\new\perceptron_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\faculta\SSC\project_444\project_444.srcs\sim_1\new\perceptron_tb.vhd:]
+ERROR: [Common 17-180] Spawn failed: No error
+update_compile_order -fileset sources_1
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\faculta\SSC\project_444\project_444.srcs\sources_1\new\perceptron_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\faculta\SSC\project_444\project_444.srcs\sim_1\new\perceptron_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\faculta\SSC\project_444\project_444.srcs\sim_1\new\perceptron_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\faculta\SSC\project_444\project_444.srcs\sim_1\new\perceptron_tb.vhd:]
+ERROR: [Common 17-180] Spawn failed: No error
+ipx::add_file C:/faculta/SSC/project_444/project_444.srcs/sources_1/new/mul.vhd [ipx::get_file_groups xilinx_vhdlsynthesis -of_objects [ipx::current_core]]
+WARNING: [Ipptcl 7-1550] All additional files should be added in a directory below the IP definition file (xml)
+set_property type vhdlSource [ipx::get_files ../../project_444/project_444.srcs/sources_1/new/mul.vhd -of_objects [ipx::get_file_groups xilinx_vhdlsynthesis -of_objects [ipx::current_core]]]
+set_property library_name xil_defaultlib [ipx::get_files ../../project_444/project_444.srcs/sources_1/new/mul.vhd -of_objects [ipx::get_file_groups xilinx_vhdlsynthesis -of_objects [ipx::current_core]]]
+ipx::add_file C:/faculta/SSC/project_444/project_444.srcs/sources_1/new/perceptron_top.vhd [ipx::get_file_groups xilinx_vhdlsynthesis -of_objects [ipx::current_core]]
+WARNING: [Ipptcl 7-1550] All additional files should be added in a directory below the IP definition file (xml)
+set_property type vhdlSource [ipx::get_files ../../project_444/project_444.srcs/sources_1/new/perceptron_top.vhd -of_objects [ipx::get_file_groups xilinx_vhdlsynthesis -of_objects [ipx::current_core]]]
+set_property library_name xil_defaultlib [ipx::get_files ../../project_444/project_444.srcs/sources_1/new/perceptron_top.vhd -of_objects [ipx::get_file_groups xilinx_vhdlsynthesis -of_objects [ipx::current_core]]]
+ipx::add_file C:/faculta/SSC/project_444/project_444.srcs/sources_1/new/adunare_fast.vhd [ipx::get_file_groups xilinx_vhdlsynthesis -of_objects [ipx::current_core]]
+WARNING: [Ipptcl 7-1550] All additional files should be added in a directory below the IP definition file (xml)
+set_property type vhdlSource [ipx::get_files ../../project_444/project_444.srcs/sources_1/new/adunare_fast.vhd -of_objects [ipx::get_file_groups xilinx_vhdlsynthesis -of_objects [ipx::current_core]]]
+set_property library_name xil_defaultlib [ipx::get_files ../../project_444/project_444.srcs/sources_1/new/adunare_fast.vhd -of_objects [ipx::get_file_groups xilinx_vhdlsynthesis -of_objects [ipx::current_core]]]
+ipx::add_file C:/faculta/SSC/project_444/project_444.srcs/sources_1/new/scadere.vhd [ipx::get_file_groups xilinx_vhdlsynthesis -of_objects [ipx::current_core]]
+WARNING: [Ipptcl 7-1550] All additional files should be added in a directory below the IP definition file (xml)
+set_property type vhdlSource [ipx::get_files ../../project_444/project_444.srcs/sources_1/new/scadere.vhd -of_objects [ipx::get_file_groups xilinx_vhdlsynthesis -of_objects [ipx::current_core]]]
+set_property library_name xil_defaultlib [ipx::get_files ../../project_444/project_444.srcs/sources_1/new/scadere.vhd -of_objects [ipx::get_file_groups xilinx_vhdlsynthesis -of_objects [ipx::current_core]]]
+ipx::add_file C:/faculta/SSC/project_444/project_444.srcs/sources_1/new/mul.vhd [ipx::get_file_groups xilinx_vhdlbehavioralsimulation -of_objects [ipx::current_core]]
+WARNING: [Ipptcl 7-1550] All additional files should be added in a directory below the IP definition file (xml)
+set_property type vhdlSource [ipx::get_files ../../project_444/project_444.srcs/sources_1/new/mul.vhd -of_objects [ipx::get_file_groups xilinx_vhdlbehavioralsimulation -of_objects [ipx::current_core]]]
+set_property library_name xil_defaultlib [ipx::get_files ../../project_444/project_444.srcs/sources_1/new/mul.vhd -of_objects [ipx::get_file_groups xilinx_vhdlbehavioralsimulation -of_objects [ipx::current_core]]]
+ipx::add_file C:/faculta/SSC/project_444/project_444.srcs/sources_1/new/perceptron_top.vhd [ipx::get_file_groups xilinx_vhdlbehavioralsimulation -of_objects [ipx::current_core]]
+WARNING: [Ipptcl 7-1550] All additional files should be added in a directory below the IP definition file (xml)
+set_property type vhdlSource [ipx::get_files ../../project_444/project_444.srcs/sources_1/new/perceptron_top.vhd -of_objects [ipx::get_file_groups xilinx_vhdlbehavioralsimulation -of_objects [ipx::current_core]]]
+set_property library_name xil_defaultlib [ipx::get_files ../../project_444/project_444.srcs/sources_1/new/perceptron_top.vhd -of_objects [ipx::get_file_groups xilinx_vhdlbehavioralsimulation -of_objects [ipx::current_core]]]
+ipx::add_file C:/faculta/SSC/project_444/project_444.srcs/sources_1/new/adunare_fast.vhd [ipx::get_file_groups xilinx_vhdlbehavioralsimulation -of_objects [ipx::current_core]]
+WARNING: [Ipptcl 7-1550] All additional files should be added in a directory below the IP definition file (xml)
+set_property type vhdlSource [ipx::get_files ../../project_444/project_444.srcs/sources_1/new/adunare_fast.vhd -of_objects [ipx::get_file_groups xilinx_vhdlbehavioralsimulation -of_objects [ipx::current_core]]]
+set_property library_name xil_defaultlib [ipx::get_files ../../project_444/project_444.srcs/sources_1/new/adunare_fast.vhd -of_objects [ipx::get_file_groups xilinx_vhdlbehavioralsimulation -of_objects [ipx::current_core]]]
+ipx::add_file C:/faculta/SSC/project_444/project_444.srcs/sources_1/new/scadere.vhd [ipx::get_file_groups xilinx_vhdlbehavioralsimulation -of_objects [ipx::current_core]]
+WARNING: [Ipptcl 7-1550] All additional files should be added in a directory below the IP definition file (xml)
+set_property type vhdlSource [ipx::get_files ../../project_444/project_444.srcs/sources_1/new/scadere.vhd -of_objects [ipx::get_file_groups xilinx_vhdlbehavioralsimulation -of_objects [ipx::current_core]]]
+set_property library_name xil_defaultlib [ipx::get_files ../../project_444/project_444.srcs/sources_1/new/scadere.vhd -of_objects [ipx::get_file_groups xilinx_vhdlbehavioralsimulation -of_objects [ipx::current_core]]]
+add_files -norecurse -copy_to c:/faculta/SSC/ip_repo/ultimu_axi_1_0/src {C:/faculta/SSC/project_444/project_444.srcs/sources_1/new/mul.vhd C:/faculta/SSC/project_444/project_444.srcs/sources_1/new/perceptron_top.vhd C:/faculta/SSC/project_444/project_444.srcs/sources_1/new/adunare_fast.vhd C:/faculta/SSC/project_444/project_444.srcs/sources_1/new/scadere.vhd}
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\faculta\SSC\project_444\project_444.srcs\sources_1\new\perceptron_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\faculta\SSC\project_444\project_444.srcs\sim_1\new\perceptron_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\faculta\SSC\project_444\project_444.srcs\sim_1\new\perceptron_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\faculta\SSC\project_444\project_444.srcs\sim_1\new\perceptron_tb.vhd:]
+ERROR: [Common 17-180] Spawn failed: No error
+update_compile_order -fileset sources_1
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\faculta\SSC\project_444\project_444.srcs\sources_1\new\perceptron_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\faculta\SSC\project_444\project_444.srcs\sim_1\new\perceptron_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\faculta\SSC\project_444\project_444.srcs\sim_1\new\perceptron_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\faculta\SSC\project_444\project_444.srcs\sim_1\new\perceptron_tb.vhd:]
+ERROR: [Common 17-180] Spawn failed: No error
+ipx::merge_project_changes files [ipx::current_core]
+WARNING: [IP_Flow 19-3833] Unreferenced file from the top module is not packaged: 'c:/faculta/SSC/ip_repo/ultimu_axi_1_0/src/mul.vhd'.
+WARNING: [IP_Flow 19-3833] Unreferenced file from the top module is not packaged: 'c:/faculta/SSC/ip_repo/ultimu_axi_1_0/src/perceptron_top.vhd'.
+WARNING: [IP_Flow 19-3833] Unreferenced file from the top module is not packaged: 'c:/faculta/SSC/ip_repo/ultimu_axi_1_0/src/adunare_fast.vhd'.
+WARNING: [IP_Flow 19-3833] Unreferenced file from the top module is not packaged: 'c:/faculta/SSC/ip_repo/ultimu_axi_1_0/src/scadere.vhd'.
+WARNING: [IP_Flow 19-5109] File Group 'xilinx_vhdlsynthesis (VHDL Synthesis)': File 'c:/faculta/SSC/project_444/project_444.srcs/sources_1/new/mul.vhd' does not exist in the project sources. It has been removed from the packaged IP. If still required, please add this file to the project, merge sources and re-package.
+WARNING: [IP_Flow 19-5109] File Group 'xilinx_vhdlsynthesis (VHDL Synthesis)': File 'c:/faculta/SSC/project_444/project_444.srcs/sources_1/new/perceptron_top.vhd' does not exist in the project sources. It has been removed from the packaged IP. If still required, please add this file to the project, merge sources and re-package.
+WARNING: [IP_Flow 19-5109] File Group 'xilinx_vhdlsynthesis (VHDL Synthesis)': File 'c:/faculta/SSC/project_444/project_444.srcs/sources_1/new/adunare_fast.vhd' does not exist in the project sources. It has been removed from the packaged IP. If still required, please add this file to the project, merge sources and re-package.
+WARNING: [IP_Flow 19-5109] File Group 'xilinx_vhdlsynthesis (VHDL Synthesis)': File 'c:/faculta/SSC/project_444/project_444.srcs/sources_1/new/scadere.vhd' does not exist in the project sources. It has been removed from the packaged IP. If still required, please add this file to the project, merge sources and re-package.
+WARNING: [IP_Flow 19-5109] File Group 'xilinx_vhdlbehavioralsimulation (VHDL Simulation)': File 'c:/faculta/SSC/project_444/project_444.srcs/sources_1/new/mul.vhd' does not exist in the project sources. It has been removed from the packaged IP. If still required, please add this file to the project, merge sources and re-package.
+WARNING: [IP_Flow 19-5109] File Group 'xilinx_vhdlbehavioralsimulation (VHDL Simulation)': File 'c:/faculta/SSC/project_444/project_444.srcs/sources_1/new/perceptron_top.vhd' does not exist in the project sources. It has been removed from the packaged IP. If still required, please add this file to the project, merge sources and re-package.
+WARNING: [IP_Flow 19-5109] File Group 'xilinx_vhdlbehavioralsimulation (VHDL Simulation)': File 'c:/faculta/SSC/project_444/project_444.srcs/sources_1/new/adunare_fast.vhd' does not exist in the project sources. It has been removed from the packaged IP. If still required, please add this file to the project, merge sources and re-package.
+WARNING: [IP_Flow 19-5109] File Group 'xilinx_vhdlbehavioralsimulation (VHDL Simulation)': File 'c:/faculta/SSC/project_444/project_444.srcs/sources_1/new/scadere.vhd' does not exist in the project sources. It has been removed from the packaged IP. If still required, please add this file to the project, merge sources and re-package.
+set_property core_revision 2 [ipx::current_core]
+ipx::update_source_project_archive -component [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::check_integrity [ipx::current_core]
+WARNING: [IP_Flow 19-11889] HDL Parameter 'C_S00_AXI_DATA_WIDTH (C S00 AXI DATA WIDTH)': Order is obsolete with XGUI version >= 2.0
+WARNING: [IP_Flow 19-11889] HDL Parameter 'C_S00_AXI_ADDR_WIDTH (C S00 AXI ADDR WIDTH)': Order is obsolete with XGUI version >= 2.0
+WARNING: [IP_Flow 19-11770] Clock interface 'S00_AXI_CLK' has no FREQ_HZ parameter.
+INFO: [IP_Flow 19-2181] Payment is not required for this core.
+WARNING: [IP_Flow 19-2187] The Product Guide file is missing.
+INFO: [Ipptcl 7-1486] check_integrity: Integrity check passed.
+ipx::save_core [ipx::current_core]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\faculta\SSC\project_444\project_444.srcs\sources_1\new\perceptron_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\faculta\SSC\project_444\project_444.srcs\sim_1\new\perceptron_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\faculta\SSC\project_444\project_444.srcs\sim_1\new\perceptron_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\faculta\SSC\project_444\project_444.srcs\sim_1\new\perceptron_tb.vhd:]
+ERROR: [Common 17-180] Spawn failed: No error
+ipx::move_temp_component_back -component [ipx::current_core]
+close_project -delete
+update_ip_catalog -rebuild -repo_path c:/faculta/SSC/ip_repo/ultimu_axi_1_0
+INFO: [IP_Flow 19-725] Reloaded user IP repository 'c:/faculta/SSC/ip_repo/ultimu_axi_1_0'
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:user:perceptron_axi:1.0'. The one found in IP location 'c:/faculta/SSC/perceptron_axi_1_0' will take precedence over the same IP in location c:/faculta/SSC/ip_repo/perceptron_axi_1_0
+delete_bd_objs [get_bd_intf_nets ps7_0_axi_periph_M00_AXI] [get_bd_cells ultimu_axi_0]
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:user:ultimu_axi:1.0 ultimu_axi_0
+endgroup
+apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config { Clk_master {/processing_system7_0/FCLK_CLK0 (50 MHz)} Clk_slave {Auto} Clk_xbar {/processing_system7_0/FCLK_CLK0 (50 MHz)} Master {/processing_system7_0/M_AXI_GP0} Slave {/ultimu_axi_0/S00_AXI} ddr_seg {Auto} intc_ip {/ps7_0_axi_periph} master_apm {0}}  [get_bd_intf_pins ultimu_axi_0/S00_AXI]
+Slave segment '/ultimu_axi_0/S00_AXI/S00_AXI_reg' is being assigned into address space '/processing_system7_0/Data' at <0x43C0_0000 [ 64K ]>.
+generate_target all [get_files  C:/faculta/SSC/project_444/project_444.srcs/sources_1/bd/design_1/design_1.bd]
+Wrote  : <C:\faculta\SSC\project_444\project_444.srcs\sources_1\bd\design_1\design_1.bd> 
+Wrote  : <C:/faculta/SSC/project_444/project_444.srcs/sources_1/bd/design_1/ui/bd_1f5defd0.ui> 
+VHDL Output written to : C:/faculta/SSC/project_444/project_444.gen/sources_1/bd/design_1/synth/design_1.vhd
+VHDL Output written to : C:/faculta/SSC/project_444/project_444.gen/sources_1/bd/design_1/sim/design_1.vhd
+VHDL Output written to : C:/faculta/SSC/project_444/project_444.gen/sources_1/bd/design_1/hdl/design_1_wrapper.vhd
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/faculta/SSC/project_444/project_444.gen/sources_1/bd/design_1/ip/design_1_auto_pc_0/design_1_auto_pc_0_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/s00_couplers/auto_pc .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ultimu_axi_0 .
+Exporting to file C:/faculta/SSC/project_444/project_444.gen/sources_1/bd/design_1/hw_handoff/design_1.hwh
+Generated Hardware Definition File C:/faculta/SSC/project_444/project_444.gen/sources_1/bd/design_1/synth/design_1.hwdef
+catch { config_ip_cache -export [get_ips -all design_1_auto_pc_0] }
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: design_1_auto_pc_0
+INFO: [IP_Flow 19-6922] IPCACHE: Exporting cached entry 09fdde2b15b80646 to dir: c:/faculta/SSC/project_444/project_444.gen/sources_1/bd/design_1/ip/design_1_auto_pc_0
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/faculta/SSC/project_444/project_444.cache/ip/2024.1/0/9/09fdde2b15b80646/design_1_auto_pc_0.dcp to c:/faculta/SSC/project_444/project_444.gen/sources_1/bd/design_1/ip/design_1_auto_pc_0/design_1_auto_pc_0.dcp.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/faculta/SSC/project_444/project_444.gen/sources_1/bd/design_1/ip/design_1_auto_pc_0/design_1_auto_pc_0.dcp
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/faculta/SSC/project_444/project_444.cache/ip/2024.1/0/9/09fdde2b15b80646/design_1_auto_pc_0_sim_netlist.v to c:/faculta/SSC/project_444/project_444.gen/sources_1/bd/design_1/ip/design_1_auto_pc_0/design_1_auto_pc_0_sim_netlist.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/faculta/SSC/project_444/project_444.gen/sources_1/bd/design_1/ip/design_1_auto_pc_0/design_1_auto_pc_0_sim_netlist.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/faculta/SSC/project_444/project_444.cache/ip/2024.1/0/9/09fdde2b15b80646/design_1_auto_pc_0_sim_netlist.vhdl to c:/faculta/SSC/project_444/project_444.gen/sources_1/bd/design_1/ip/design_1_auto_pc_0/design_1_auto_pc_0_sim_netlist.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/faculta/SSC/project_444/project_444.gen/sources_1/bd/design_1/ip/design_1_auto_pc_0/design_1_auto_pc_0_sim_netlist.vhdl
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/faculta/SSC/project_444/project_444.cache/ip/2024.1/0/9/09fdde2b15b80646/design_1_auto_pc_0_stub.v to c:/faculta/SSC/project_444/project_444.gen/sources_1/bd/design_1/ip/design_1_auto_pc_0/design_1_auto_pc_0_stub.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/faculta/SSC/project_444/project_444.gen/sources_1/bd/design_1/ip/design_1_auto_pc_0/design_1_auto_pc_0_stub.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/faculta/SSC/project_444/project_444.cache/ip/2024.1/0/9/09fdde2b15b80646/design_1_auto_pc_0_stub.vhdl to c:/faculta/SSC/project_444/project_444.gen/sources_1/bd/design_1/ip/design_1_auto_pc_0/design_1_auto_pc_0_stub.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/faculta/SSC/project_444/project_444.gen/sources_1/bd/design_1/ip/design_1_auto_pc_0/design_1_auto_pc_0_stub.vhdl
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP design_1_auto_pc_0, cache-ID = 09fdde2b15b80646; cache size = 1.172 MB.
+catch { config_ip_cache -export [get_ips -all design_1_ultimu_axi_0_1] }
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: design_1_ultimu_axi_0_1
+export_ip_user_files -of_objects [get_files C:/faculta/SSC/project_444/project_444.srcs/sources_1/bd/design_1/design_1.bd] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] C:/faculta/SSC/project_444/project_444.srcs/sources_1/bd/design_1/design_1.bd]
+launch_runs design_1_ultimu_axi_0_1_synth_1 -jobs 8
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: design_1_ultimu_axi_0_1
+[Wed Jan  7 20:19:11 2026] Launched design_1_ultimu_axi_0_1_synth_1...
+Run output will be captured here: C:/faculta/SSC/project_444/project_444.runs/design_1_ultimu_axi_0_1_synth_1/runme.log
+export_simulation -of_objects [get_files C:/faculta/SSC/project_444/project_444.srcs/sources_1/bd/design_1/design_1.bd] -directory C:/faculta/SSC/project_444/project_444.ip_user_files/sim_scripts -ip_user_files_dir C:/faculta/SSC/project_444/project_444.ip_user_files -ipstatic_source_dir C:/faculta/SSC/project_444/project_444.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/faculta/SSC/project_444/project_444.cache/compile_simlib/modelsim} {questa=C:/faculta/SSC/project_444/project_444.cache/compile_simlib/questa} {riviera=C:/faculta/SSC/project_444/project_444.cache/compile_simlib/riviera} {activehdl=C:/faculta/SSC/project_444/project_444.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+make_wrapper -files [get_files C:/faculta/SSC/project_444/project_444.srcs/sources_1/bd/design_1/design_1.bd] -top
+add_files -norecurse c:/faculta/SSC/project_444/project_444.gen/sources_1/bd/design_1/hdl/design_1_wrapper.vhd
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\faculta\SSC\project_444\project_444.srcs\sources_1\new\perceptron_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\faculta\SSC\project_444\project_444.srcs\sim_1\new\perceptron_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\faculta\SSC\project_444\project_444.srcs\sim_1\new\perceptron_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\faculta\SSC\project_444\project_444.srcs\sim_1\new\perceptron_tb.vhd:]
+ERROR: [Common 17-180] Spawn failed: No error
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file C:/faculta/SSC/project_444/project_444.srcs/utils_1/imports/synth_1/perceptron_top.dcp with file C:/faculta/SSC/project_444/project_444.runs/synth_1/design_1_wrapper.dcp
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/faculta/SSC/project_444/project_444.runs/synth_1
+
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\faculta\SSC\project_444\project_444.srcs\sources_1\new\perceptron_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\faculta\SSC\project_444\project_444.srcs\sim_1\new\perceptron_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\faculta\SSC\project_444\project_444.srcs\sim_1\new\perceptron_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\faculta\SSC\project_444\project_444.srcs\sim_1\new\perceptron_tb.vhd:]
+launch_runs synth_1 -jobs 8
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: design_1_ultimu_axi_0_1
+[Wed Jan  7 20:20:09 2026] Launched design_1_ultimu_axi_0_1_synth_1...
+Run output will be captured here: C:/faculta/SSC/project_444/project_444.runs/design_1_ultimu_axi_0_1_synth_1/runme.log
+ERROR: [Common 17-180] Spawn failed: No error
+[Wed Jan  7 20:20:09 2026] Launched synth_1...
+Run output will be captured here: C:/faculta/SSC/project_444/project_444.runs/synth_1/runme.log
+ERROR: [Common 17-39] 'launch_runs' failed due to earlier errors.
+The simulator has terminated in an unexpected manner with exit code 1.  Please review the simulation log (xsim.log) for details.
+reset_run synth_1
+reset_run design_1_ultimu_axi_0_1_synth_1
+launch_runs synth_1 -jobs 8
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: design_1_ultimu_axi_0_1
+[Wed Jan  7 20:21:02 2026] Launched design_1_ultimu_axi_0_1_synth_1...
+Run output will be captured here: C:/faculta/SSC/project_444/project_444.runs/design_1_ultimu_axi_0_1_synth_1/runme.log
+[Wed Jan  7 20:21:02 2026] Launched synth_1...
+Run output will be captured here: C:/faculta/SSC/project_444/project_444.runs/synth_1/runme.log
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\faculta\SSC\project_444\project_444.srcs\sources_1\new\perceptron_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\faculta\SSC\project_444\project_444.srcs\sim_1\new\perceptron_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\faculta\SSC\project_444\project_444.srcs\sim_1\new\perceptron_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\faculta\SSC\project_444\project_444.srcs\sim_1\new\perceptron_tb.vhd:]
+ERROR: [Common 17-180] Spawn failed: No error
+launch_runs impl_1 -jobs 8
+[Wed Jan  7 20:23:15 2026] Launched impl_1...
+Run output will be captured here: C:/faculta/SSC/project_444/project_444.runs/impl_1/runme.log
+open_run impl_1
+INFO: [Device 21-403] Loading part xc7z010clg400-1
+INFO: [Device 21-9227] Part: xc7z010clg400-1 does not have CEAM library.
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.025 . Memory (MB): peak = 2866.723 ; gain = 0.000
+INFO: [Project 1-479] Netlist was created with Vivado 2024.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Read ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.010 . Memory (MB): peak = 2866.723 ; gain = 0.000
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+INFO: [Designutils 20-5722] Start Reading Physical Databases.
+Reading placement.
+Read Netlist Cache: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 3265.914 ; gain = 0.000
+Reading placer database...
+Read Device Cache: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.018 . Memory (MB): peak = 3265.914 ; gain = 0.000
+Read PlaceDB: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.123 . Memory (MB): peak = 3265.914 ; gain = 0.000
+Read PulsedLatchDB: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3265.914 ; gain = 0.000
+Reading routing.
+Read RouteStorage: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.070 . Memory (MB): peak = 3265.914 ; gain = 0.000
+Read Physdb Files: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.234 . Memory (MB): peak = 3265.914 ; gain = 0.000
+Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.235 . Memory (MB): peak = 3265.914 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 3265.914 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:21 ; elapsed = 00:00:16 . Memory (MB): peak = 3296.621 ; gain = 429.898
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Wed Jan  7 20:25:05 2026] Launched impl_1...
+Run output will be captured here: C:/faculta/SSC/project_444/project_444.runs/impl_1/runme.log
+write_hw_platform -fixed -include_bit -force -file C:/faculta/SSC/project_444/design_1_wrapper.xsa
+INFO: [Project 1-1918] Creating Hardware Platform: C:/faculta/SSC/project_444/design_1_wrapper.xsa ...
+WARNING: [Project 1-645] Board images not set in Hardware Platform.
+INFO: [Project 1-1943] The Hardware Platform can be used for Hardware
+INFO: [Project 1-1941] Successfully created Hardware Platform: C:/faculta/SSC/project_444/design_1_wrapper.xsa
+INFO: [Hsi 55-2053] elapsed time for repository (C:/Vivado/2024.1/data/embeddedsw) loading 0 seconds
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Jan  7 20:52:07 2026...

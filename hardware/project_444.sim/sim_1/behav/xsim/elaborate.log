@@ -1,0 +1,22 @@
+Vivado Simulator v2024.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Vivado/2024.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L axi_infrastructure_v1_1_0 -L axi_vip_v1_1_17 -L processing_system7_vip_v1_0_19 -L lib_cdc_v1_0_3 -L proc_sys_reset_v5_0_15 -L generic_baseblocks_v2_1_2 -L fifo_generator_v13_2_10 -L axi_data_fifo_v2_1_30 -L axi_register_slice_v2_1_31 -L axi_protocol_converter_v2_1_31 -L uvm -L xilinx_vip -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot perceptron_tb_behav xil_defaultlib.perceptron_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling module xil_defaultlib.glbl
+Compiling architecture behavioral of entity xil_defaultlib.mul [mul_default]
+Compiling architecture behavioral of entity xil_defaultlib.adunare_fast [adunare_fast_default]
+Compiling architecture behavioral of entity xil_defaultlib.scadere [scadere_default]
+Compiling architecture behavioral of entity xil_defaultlib.perceptron_top [perceptron_top_default]
+Compiling architecture sim of entity xil_defaultlib.perceptron_tb
+Built simulation snapshot perceptron_tb_behav

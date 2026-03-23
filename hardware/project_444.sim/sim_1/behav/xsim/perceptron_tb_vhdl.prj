@@ -1,0 +1,16 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../project_444.ip_user_files/bd/design_1/ip/design_1_rst_ps7_0_50M_0/sim/design_1_rst_ps7_0_50M_0.vhd" \
+"../../../../project_444.ip_user_files/bd/design_1/ipshared/df7a/hdl/ultimu_axi_slave_lite_v1_0_S00_AXI.vhd" \
+"../../../../project_444.ip_user_files/bd/design_1/ipshared/df7a/hdl/ultimu_axi.vhd" \
+"../../../../project_444.ip_user_files/bd/design_1/ip/design_1_ultimu_axi_0_1/sim/design_1_ultimu_axi_0_1.vhd" \
+"../../../../project_444.srcs/sources_1/new/adunare_fast.vhd" \
+"../../../../project_444.srcs/sources_1/new/mul.vhd" \
+"../../../../project_444.srcs/sources_1/new/scadere.vhd" \
+"../../../../project_444.srcs/sources_1/new/perceptron_top.vhd" \
+"../../../../project_444.ip_user_files/bd/design_1/sim/design_1.vhd" \
+"../../../../project_444.gen/sources_1/bd/design_1/hdl/design_1_wrapper.vhd" \
+"../../../../project_444.srcs/sim_1/new/perceptron_tb.vhd" \
+
+# Do not sort compile order
+nosort

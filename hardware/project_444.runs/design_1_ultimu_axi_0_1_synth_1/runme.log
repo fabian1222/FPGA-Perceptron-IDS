@@ -1,0 +1,403 @@
+
+*** Running vivado
+    with args -log design_1_ultimu_axi_0_1.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_ultimu_axi_0_1.tcl
+
+
+
+****** Vivado v2024.1 (64-bit)
+  **** SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
+  **** IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+  **** SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+  **** Start of session at: Wed Jan  7 20:21:08 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source design_1_ultimu_axi_0_1.tcl -notrace
+create_project: Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 571.227 ; gain = 238.363
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/faculta/SSC/ip_repo/ultimu_axi_1_0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/faculta/SSC/perceptron_axi_1_0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/faculta/SSC/AXI4_1_0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/faculta/SSC/ip_repo/speram_1_0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/faculta/SSC/ip_repo/perceptron_axi_1_0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/faculta/SSC/ip_repo/Perceptron_IP_1_0'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Vivado/2024.1/data/ip'.
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:user:perceptron_axi:1.0'. The one found in IP location 'c:/faculta/SSC/perceptron_axi_1_0' will take precedence over the same IP in location c:/faculta/SSC/ip_repo/perceptron_axi_1_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: design_1_ultimu_axi_0_1
+Command: synth_design -top design_1_ultimu_axi_0_1 -part xc7z010clg400-1 -incremental_mode off -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: [Device 21-403] Loading part xc7z010clg400-1
+INFO: [Device 21-9227] Part: xc7z010clg400-1 does not have CEAM library.
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {17-179}  -suppress '. The existing rule will be replaced.
+INFO: [Synth 8-7075] Helper process launched with PID 25720
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1430.859 ; gain = 446.223
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'design_1_ultimu_axi_0_1' [c:/faculta/SSC/project_444/project_444.gen/sources_1/bd/design_1/ip/design_1_ultimu_axi_0_1/synth/design_1_ultimu_axi_0_1.vhd:82]
+	Parameter C_S00_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S00_AXI_ADDR_WIDTH bound to: 6 - type: integer 
+INFO: [Synth 8-3491] module 'ultimu_axi' declared at 'c:/faculta/SSC/project_444/project_444.gen/sources_1/bd/design_1/ipshared/df7a/hdl/ultimu_axi.vhd:5' bound to instance 'U0' of component 'ultimu_axi' [c:/faculta/SSC/project_444/project_444.gen/sources_1/bd/design_1/ip/design_1_ultimu_axi_0_1/synth/design_1_ultimu_axi_0_1.vhd:148]
+INFO: [Synth 8-638] synthesizing module 'ultimu_axi' [c:/faculta/SSC/project_444/project_444.gen/sources_1/bd/design_1/ipshared/df7a/hdl/ultimu_axi.vhd:49]
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 6 - type: integer 
+INFO: [Synth 8-3491] module 'ultimu_axi_slave_lite_v1_0_S00_AXI' declared at 'c:/faculta/SSC/project_444/project_444.gen/sources_1/bd/design_1/ipshared/df7a/hdl/ultimu_axi_slave_lite_v1_0_S00_AXI.vhd:5' bound to instance 'ultimu_axi_slave_lite_v1_0_S00_AXI_inst' of component 'ultimu_axi_slave_lite_v1_0_S00_AXI' [c:/faculta/SSC/project_444/project_444.gen/sources_1/bd/design_1/ipshared/df7a/hdl/ultimu_axi.vhd:85]
+INFO: [Synth 8-638] synthesizing module 'ultimu_axi_slave_lite_v1_0_S00_AXI' [c:/faculta/SSC/project_444/project_444.gen/sources_1/bd/design_1/ipshared/df7a/hdl/ultimu_axi_slave_lite_v1_0_S00_AXI.vhd:86]
+INFO: [Synth 8-256] done synthesizing module 'ultimu_axi_slave_lite_v1_0_S00_AXI' (0#1) [c:/faculta/SSC/project_444/project_444.gen/sources_1/bd/design_1/ipshared/df7a/hdl/ultimu_axi_slave_lite_v1_0_S00_AXI.vhd:86]
+INFO: [Synth 8-256] done synthesizing module 'ultimu_axi' (0#1) [c:/faculta/SSC/project_444/project_444.gen/sources_1/bd/design_1/ipshared/df7a/hdl/ultimu_axi.vhd:49]
+INFO: [Synth 8-256] done synthesizing module 'design_1_ultimu_axi_0_1' (0#1) [c:/faculta/SSC/project_444/project_444.gen/sources_1/bd/design_1/ip/design_1_ultimu_axi_0_1/synth/design_1_ultimu_axi_0_1.vhd:82]
+WARNING: [Synth 8-6014] Unused sequential element axi_awaddr_reg was removed.  [c:/faculta/SSC/project_444/project_444.gen/sources_1/bd/design_1/ipshared/df7a/hdl/ultimu_axi_slave_lite_v1_0_S00_AXI.vhd:168]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg0_reg was removed.  [c:/faculta/SSC/project_444/project_444.gen/sources_1/bd/design_1/ipshared/df7a/hdl/ultimu_axi_slave_lite_v1_0_S00_AXI.vhd:218]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg1_reg was removed.  [c:/faculta/SSC/project_444/project_444.gen/sources_1/bd/design_1/ipshared/df7a/hdl/ultimu_axi_slave_lite_v1_0_S00_AXI.vhd:219]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg2_reg was removed.  [c:/faculta/SSC/project_444/project_444.gen/sources_1/bd/design_1/ipshared/df7a/hdl/ultimu_axi_slave_lite_v1_0_S00_AXI.vhd:220]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg3_reg was removed.  [c:/faculta/SSC/project_444/project_444.gen/sources_1/bd/design_1/ipshared/df7a/hdl/ultimu_axi_slave_lite_v1_0_S00_AXI.vhd:221]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg4_reg was removed.  [c:/faculta/SSC/project_444/project_444.gen/sources_1/bd/design_1/ipshared/df7a/hdl/ultimu_axi_slave_lite_v1_0_S00_AXI.vhd:222]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg5_reg was removed.  [c:/faculta/SSC/project_444/project_444.gen/sources_1/bd/design_1/ipshared/df7a/hdl/ultimu_axi_slave_lite_v1_0_S00_AXI.vhd:223]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg6_reg was removed.  [c:/faculta/SSC/project_444/project_444.gen/sources_1/bd/design_1/ipshared/df7a/hdl/ultimu_axi_slave_lite_v1_0_S00_AXI.vhd:224]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg7_reg was removed.  [c:/faculta/SSC/project_444/project_444.gen/sources_1/bd/design_1/ipshared/df7a/hdl/ultimu_axi_slave_lite_v1_0_S00_AXI.vhd:225]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg8_reg was removed.  [c:/faculta/SSC/project_444/project_444.gen/sources_1/bd/design_1/ipshared/df7a/hdl/ultimu_axi_slave_lite_v1_0_S00_AXI.vhd:226]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg9_reg was removed.  [c:/faculta/SSC/project_444/project_444.gen/sources_1/bd/design_1/ipshared/df7a/hdl/ultimu_axi_slave_lite_v1_0_S00_AXI.vhd:227]
+WARNING: [Synth 8-6014] Unused sequential element axi_araddr_reg was removed.  [c:/faculta/SSC/project_444/project_444.gen/sources_1/bd/design_1/ipshared/df7a/hdl/ultimu_axi_slave_lite_v1_0_S00_AXI.vhd:351]
+WARNING: [Synth 8-7129] Port S_AXI_AWADDR[5] in module ultimu_axi_slave_lite_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWADDR[4] in module ultimu_axi_slave_lite_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWADDR[3] in module ultimu_axi_slave_lite_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWADDR[2] in module ultimu_axi_slave_lite_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWADDR[1] in module ultimu_axi_slave_lite_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWADDR[0] in module ultimu_axi_slave_lite_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWPROT[2] in module ultimu_axi_slave_lite_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWPROT[1] in module ultimu_axi_slave_lite_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWPROT[0] in module ultimu_axi_slave_lite_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_WDATA[31] in module ultimu_axi_slave_lite_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_WDATA[30] in module ultimu_axi_slave_lite_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_WDATA[29] in module ultimu_axi_slave_lite_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_WDATA[28] in module ultimu_axi_slave_lite_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_WDATA[27] in module ultimu_axi_slave_lite_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_WDATA[26] in module ultimu_axi_slave_lite_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_WDATA[25] in module ultimu_axi_slave_lite_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_WDATA[24] in module ultimu_axi_slave_lite_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_WDATA[23] in module ultimu_axi_slave_lite_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_WDATA[22] in module ultimu_axi_slave_lite_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_WDATA[21] in module ultimu_axi_slave_lite_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_WDATA[20] in module ultimu_axi_slave_lite_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_WDATA[19] in module ultimu_axi_slave_lite_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_WDATA[18] in module ultimu_axi_slave_lite_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_WDATA[17] in module ultimu_axi_slave_lite_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_WDATA[16] in module ultimu_axi_slave_lite_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_WDATA[15] in module ultimu_axi_slave_lite_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_WDATA[14] in module ultimu_axi_slave_lite_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_WDATA[13] in module ultimu_axi_slave_lite_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_WDATA[12] in module ultimu_axi_slave_lite_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_WDATA[11] in module ultimu_axi_slave_lite_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_WDATA[10] in module ultimu_axi_slave_lite_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_WDATA[9] in module ultimu_axi_slave_lite_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_WDATA[8] in module ultimu_axi_slave_lite_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_WDATA[7] in module ultimu_axi_slave_lite_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_WDATA[6] in module ultimu_axi_slave_lite_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_WDATA[5] in module ultimu_axi_slave_lite_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_WDATA[4] in module ultimu_axi_slave_lite_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_WDATA[3] in module ultimu_axi_slave_lite_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_WDATA[2] in module ultimu_axi_slave_lite_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_WDATA[1] in module ultimu_axi_slave_lite_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_WDATA[0] in module ultimu_axi_slave_lite_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_WSTRB[3] in module ultimu_axi_slave_lite_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_WSTRB[2] in module ultimu_axi_slave_lite_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_WSTRB[1] in module ultimu_axi_slave_lite_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_WSTRB[0] in module ultimu_axi_slave_lite_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARADDR[5] in module ultimu_axi_slave_lite_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARADDR[4] in module ultimu_axi_slave_lite_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARADDR[3] in module ultimu_axi_slave_lite_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARADDR[2] in module ultimu_axi_slave_lite_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARADDR[1] in module ultimu_axi_slave_lite_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARADDR[0] in module ultimu_axi_slave_lite_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARPROT[2] in module ultimu_axi_slave_lite_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARPROT[1] in module ultimu_axi_slave_lite_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARPROT[0] in module ultimu_axi_slave_lite_v1_0_S00_AXI is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1545.719 ; gain = 561.082
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1545.719 ; gain = 561.082
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1545.719 ; gain = 561.082
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1545.719 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1637.031 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.027 . Memory (MB): peak = 1637.344 ; gain = 0.312
+INFO: [Designutils 20-5008] Incremental synthesis strategy off
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 1637.344 ; gain = 652.707
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z010clg400-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 1637.344 ; gain = 652.707
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 1637.344 ; gain = 652.707
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'state_write_reg' in module 'ultimu_axi_slave_lite_v1_0_S00_AXI'
+INFO: [Synth 8-802] inferred FSM for state register 'state_read_reg' in module 'ultimu_axi_slave_lite_v1_0_S00_AXI'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    idle |                              001 |                               00
+                   waddr |                              010 |                               10
+                   wdata |                              100 |                               11
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_write_reg' using encoding 'one-hot' in module 'ultimu_axi_slave_lite_v1_0_S00_AXI'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    idle |                               00 |                               00
+                   raddr |                               01 |                               10
+                   rdata |                               10 |                               11
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_read_reg' using encoding 'sequential' in module 'ultimu_axi_slave_lite_v1_0_S00_AXI'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 1637.344 ; gain = 652.707
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Registers : 
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 5     
++---Muxes : 
+	   3 Input    3 Bit        Muxes := 1     
+	   2 Input    3 Bit        Muxes := 3     
+	   3 Input    2 Bit        Muxes := 1     
+	   2 Input    2 Bit        Muxes := 2     
+	   2 Input    1 Bit        Muxes := 2     
+	   3 Input    1 Bit        Muxes := 10    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 80 (col length:40)
+BRAMs: 120 (col length: RAMB18 40 RAMB36 20)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+INFO: [Synth 8-3917] design design_1_ultimu_axi_0_1 has port s00_axi_rdata[31] driven by constant 0
+INFO: [Synth 8-3917] design design_1_ultimu_axi_0_1 has port s00_axi_rdata[30] driven by constant 0
+INFO: [Synth 8-3917] design design_1_ultimu_axi_0_1 has port s00_axi_rdata[29] driven by constant 0
+INFO: [Synth 8-3917] design design_1_ultimu_axi_0_1 has port s00_axi_rdata[28] driven by constant 0
+INFO: [Synth 8-3917] design design_1_ultimu_axi_0_1 has port s00_axi_rdata[27] driven by constant 0
+INFO: [Synth 8-3917] design design_1_ultimu_axi_0_1 has port s00_axi_rdata[26] driven by constant 0
+INFO: [Synth 8-3917] design design_1_ultimu_axi_0_1 has port s00_axi_rdata[25] driven by constant 0
+INFO: [Synth 8-3917] design design_1_ultimu_axi_0_1 has port s00_axi_rdata[24] driven by constant 0
+INFO: [Synth 8-3917] design design_1_ultimu_axi_0_1 has port s00_axi_rdata[23] driven by constant 0
+INFO: [Synth 8-3917] design design_1_ultimu_axi_0_1 has port s00_axi_rdata[22] driven by constant 0
+INFO: [Synth 8-3917] design design_1_ultimu_axi_0_1 has port s00_axi_rdata[21] driven by constant 0
+INFO: [Synth 8-3917] design design_1_ultimu_axi_0_1 has port s00_axi_rdata[20] driven by constant 0
+INFO: [Synth 8-3917] design design_1_ultimu_axi_0_1 has port s00_axi_rdata[19] driven by constant 0
+INFO: [Synth 8-3917] design design_1_ultimu_axi_0_1 has port s00_axi_rdata[18] driven by constant 0
+INFO: [Synth 8-3917] design design_1_ultimu_axi_0_1 has port s00_axi_rdata[17] driven by constant 0
+INFO: [Synth 8-3917] design design_1_ultimu_axi_0_1 has port s00_axi_rdata[16] driven by constant 0
+INFO: [Synth 8-3917] design design_1_ultimu_axi_0_1 has port s00_axi_rdata[15] driven by constant 0
+INFO: [Synth 8-3917] design design_1_ultimu_axi_0_1 has port s00_axi_rdata[14] driven by constant 0
+INFO: [Synth 8-3917] design design_1_ultimu_axi_0_1 has port s00_axi_rdata[13] driven by constant 0
+INFO: [Synth 8-3917] design design_1_ultimu_axi_0_1 has port s00_axi_rdata[12] driven by constant 0
+INFO: [Synth 8-3917] design design_1_ultimu_axi_0_1 has port s00_axi_rdata[11] driven by constant 0
+INFO: [Synth 8-3917] design design_1_ultimu_axi_0_1 has port s00_axi_rdata[10] driven by constant 0
+INFO: [Synth 8-3917] design design_1_ultimu_axi_0_1 has port s00_axi_rdata[9] driven by constant 0
+INFO: [Synth 8-3917] design design_1_ultimu_axi_0_1 has port s00_axi_rdata[8] driven by constant 0
+INFO: [Synth 8-3917] design design_1_ultimu_axi_0_1 has port s00_axi_rdata[7] driven by constant 0
+INFO: [Synth 8-3917] design design_1_ultimu_axi_0_1 has port s00_axi_rdata[6] driven by constant 0
+INFO: [Synth 8-3917] design design_1_ultimu_axi_0_1 has port s00_axi_rdata[5] driven by constant 0
+INFO: [Synth 8-3917] design design_1_ultimu_axi_0_1 has port s00_axi_rdata[4] driven by constant 0
+INFO: [Synth 8-3917] design design_1_ultimu_axi_0_1 has port s00_axi_rdata[3] driven by constant 0
+INFO: [Synth 8-3917] design design_1_ultimu_axi_0_1 has port s00_axi_rdata[2] driven by constant 0
+INFO: [Synth 8-3917] design design_1_ultimu_axi_0_1 has port s00_axi_rdata[1] driven by constant 0
+INFO: [Synth 8-3917] design design_1_ultimu_axi_0_1 has port s00_axi_rdata[0] driven by constant 0
+WARNING: [Synth 8-7129] Port s00_axi_awaddr[5] in module design_1_ultimu_axi_0_1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s00_axi_awaddr[4] in module design_1_ultimu_axi_0_1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s00_axi_awaddr[3] in module design_1_ultimu_axi_0_1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s00_axi_awaddr[2] in module design_1_ultimu_axi_0_1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s00_axi_awaddr[1] in module design_1_ultimu_axi_0_1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s00_axi_awaddr[0] in module design_1_ultimu_axi_0_1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s00_axi_awprot[2] in module design_1_ultimu_axi_0_1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s00_axi_awprot[1] in module design_1_ultimu_axi_0_1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s00_axi_awprot[0] in module design_1_ultimu_axi_0_1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s00_axi_wdata[31] in module design_1_ultimu_axi_0_1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s00_axi_wdata[30] in module design_1_ultimu_axi_0_1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s00_axi_wdata[29] in module design_1_ultimu_axi_0_1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s00_axi_wdata[28] in module design_1_ultimu_axi_0_1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s00_axi_wdata[27] in module design_1_ultimu_axi_0_1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s00_axi_wdata[26] in module design_1_ultimu_axi_0_1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s00_axi_wdata[25] in module design_1_ultimu_axi_0_1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s00_axi_wdata[24] in module design_1_ultimu_axi_0_1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s00_axi_wdata[23] in module design_1_ultimu_axi_0_1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s00_axi_wdata[22] in module design_1_ultimu_axi_0_1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s00_axi_wdata[21] in module design_1_ultimu_axi_0_1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s00_axi_wdata[20] in module design_1_ultimu_axi_0_1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s00_axi_wdata[19] in module design_1_ultimu_axi_0_1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s00_axi_wdata[18] in module design_1_ultimu_axi_0_1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s00_axi_wdata[17] in module design_1_ultimu_axi_0_1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s00_axi_wdata[16] in module design_1_ultimu_axi_0_1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s00_axi_wdata[15] in module design_1_ultimu_axi_0_1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s00_axi_wdata[14] in module design_1_ultimu_axi_0_1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s00_axi_wdata[13] in module design_1_ultimu_axi_0_1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s00_axi_wdata[12] in module design_1_ultimu_axi_0_1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s00_axi_wdata[11] in module design_1_ultimu_axi_0_1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s00_axi_wdata[10] in module design_1_ultimu_axi_0_1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s00_axi_wdata[9] in module design_1_ultimu_axi_0_1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s00_axi_wdata[8] in module design_1_ultimu_axi_0_1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s00_axi_wdata[7] in module design_1_ultimu_axi_0_1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s00_axi_wdata[6] in module design_1_ultimu_axi_0_1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s00_axi_wdata[5] in module design_1_ultimu_axi_0_1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s00_axi_wdata[4] in module design_1_ultimu_axi_0_1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s00_axi_wdata[3] in module design_1_ultimu_axi_0_1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s00_axi_wdata[2] in module design_1_ultimu_axi_0_1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s00_axi_wdata[1] in module design_1_ultimu_axi_0_1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s00_axi_wdata[0] in module design_1_ultimu_axi_0_1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s00_axi_wstrb[3] in module design_1_ultimu_axi_0_1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s00_axi_wstrb[2] in module design_1_ultimu_axi_0_1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s00_axi_wstrb[1] in module design_1_ultimu_axi_0_1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s00_axi_wstrb[0] in module design_1_ultimu_axi_0_1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s00_axi_araddr[5] in module design_1_ultimu_axi_0_1 is either unconnected or has no load
+INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 1637.344 ; gain = 652.707
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:25 ; elapsed = 00:00:26 . Memory (MB): peak = 1637.344 ; gain = 652.707
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:25 ; elapsed = 00:00:26 . Memory (MB): peak = 1637.344 ; gain = 652.707
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:25 ; elapsed = 00:00:26 . Memory (MB): peak = 1637.344 ; gain = 652.707
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:30 ; elapsed = 00:00:31 . Memory (MB): peak = 1637.344 ; gain = 652.707
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:30 ; elapsed = 00:00:31 . Memory (MB): peak = 1637.344 ; gain = 652.707
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:30 ; elapsed = 00:00:31 . Memory (MB): peak = 1637.344 ; gain = 652.707
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:30 ; elapsed = 00:00:31 . Memory (MB): peak = 1637.344 ; gain = 652.707
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:30 ; elapsed = 00:00:31 . Memory (MB): peak = 1637.344 ; gain = 652.707
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:30 ; elapsed = 00:00:31 . Memory (MB): peak = 1637.344 ; gain = 652.707
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |LUT1 |     1|
+|2     |LUT2 |     1|
+|3     |LUT5 |     1|
+|4     |LUT6 |     9|
+|5     |FDRE |     9|
+|6     |FDSE |     1|
++------+-----+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:30 ; elapsed = 00:00:31 . Memory (MB): peak = 1637.344 ; gain = 652.707
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 55 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:20 ; elapsed = 00:00:30 . Memory (MB): peak = 1637.344 ; gain = 561.082
+Synthesis Optimization Complete : Time (s): cpu = 00:00:30 ; elapsed = 00:00:32 . Memory (MB): peak = 1637.344 ; gain = 652.707
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1637.344 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1637.344 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete | Checksum: 4776ea4f
+INFO: [Common 17-83] Releasing license: Synthesis
+68 Infos, 115 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:36 ; elapsed = 00:00:39 . Memory (MB): peak = 1637.344 ; gain = 1051.328
+INFO: [Common 17-1381] The checkpoint 'C:/faculta/SSC/project_444/project_444.runs/design_1_ultimu_axi_0_1_synth_1/design_1_ultimu_axi_0_1.dcp' has been generated.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP design_1_ultimu_axi_0_1, cache-ID = b0e4b033a4e74e0c
+INFO: [Coretcl 2-1174] Renamed 2 cell refs.
+INFO: [Common 17-1381] The checkpoint 'C:/faculta/SSC/project_444/project_444.runs/design_1_ultimu_axi_0_1_synth_1/design_1_ultimu_axi_0_1.dcp' has been generated.
+INFO: [Vivado 12-24828] Executing command : report_utilization -file design_1_ultimu_axi_0_1_utilization_synth.rpt -pb design_1_ultimu_axi_0_1_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Wed Jan  7 20:22:04 2026...
